@@ -10,7 +10,7 @@ There are two ways of running and installing elasticsearch-head
 
 h4. Running as a plugin of ElasticSearch (this is the preferred method)
 
-* @elasticsearch/bin/plugin -install mobz/elasticsearch-head@
+* @elasticsearch/bin/plugin -install Aconex/elasticsearch-head@
 * @open http://localhost:9200/_plugin/head/@
 
 This will automatically download the latest version of elasticsearch-head from github and run it as a plugin within the elasticsearch cluster. In this mode;
@@ -21,7 +21,7 @@ This will automatically download the latest version of elasticsearch-head from g
 
 h4. Running as a standalone webapp
 
-* @git clone git://github.com/mobz/elasticsearch-head.git@
+* @git clone git://github.com/Aconex/elasticsearch-head.git@
 * @cd elasticsearch-head@
 * @open index.html@
 
